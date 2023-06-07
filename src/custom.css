@@ -1,8 +1,8 @@
 body {
   --sl-color-text-accent: #DC143B;
   --sl-color-text-invert: #fff;
-  --sl-content-width: 85ch;
-  --sl-text-code: 0.75rem;
+  --sl-content-width: 95ch;
+  --sl-text-code: 0.8rem;
 }
 
 .header .right-group a {
