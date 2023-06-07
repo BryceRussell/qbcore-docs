@@ -1,0 +1,14 @@
+body {
+  --sl-color-text-accent: #DC143B;
+  --sl-color-text-invert: #fff;
+  --sl-content-width: 85ch;
+  --sl-text-code: 0.75rem;
+}
+
+.header .right-group a {
+  opacity: .5;
+}
+
+.sidebar ul {
+  padding-bottom: 1rem;
+}
