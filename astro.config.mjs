@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://BryceRussell.github.io',
+  site: 'https://brycerussell.github.io',
   base: '/qbcore-docs',
   image: {
     service: sharpImageService(),
@@ -48,7 +48,7 @@ export default defineConfig({
           attrs: {
             rel: 'apple-touch-icon',
             sizes: '180x180',
-            href: '/apple-touch-icon.png'
+            href: '/qbcore-docs/apple-touch-icon.png'
           },
         },
         {
@@ -56,7 +56,7 @@ export default defineConfig({
           attrs: {
             rel: 'icon',
             sizes: '32x32',
-            href: '/favicon-32x32.png',
+            href: '/qbcore-docs/favicon-32x32.png',
           },
         },
         {
@@ -64,21 +64,21 @@ export default defineConfig({
           attrs: {
             rel: 'icon',
             sizes: '16x16',
-            href: '/favicon-16x16.png',
+            href: '/qbcore-docs/favicon-16x16.png',
           },
         },
         {
           tag: 'link',
           attrs: {
             rel: 'manifest',
-            href: '/site.webmanifest',
+            href: '/qbcore-docs/site.webmanifest',
           },
         },
         {
           tag: 'link',
           attrs: {
             rel: 'mask-icon',
-            href: '/safari-pinned-tab.svg',
+            href: '/qbcore-docs/safari-pinned-tab.svg',
             color: '#dc143b'
           },
         },
