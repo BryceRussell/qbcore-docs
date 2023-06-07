@@ -42,6 +42,43 @@ export default defineConfig({
           autogenerate: { directory: 'qbcore-resources' },
         },
       ],
+      head: [
+        { 
+          tag: "meta",
+          attrs: {
+            property:"og:url",
+            content:"https://brycerussell.github.io/qbcore-docs/"
+          }
+        },
+        { 
+          tag:"meta",
+          attrs: {
+            property:"og:type",
+            content:"website"
+          }
+        },
+        { 
+          tag:"meta",
+          attrs: {
+            property:"og:title",
+            content:"Welcome to QBCore"
+          }
+        },
+        { 
+          tag:"meta",
+          attrs: {
+            property:"og:description",
+            content:"Welcome aboard! QBCore is an ever-expanding framework for Grand Theft Auto V utilizing the FiveM platform. It offers extensive customization, ease of use, ongoing maintenance and active support!"
+          }
+        },
+        { 
+          tag:"meta",
+          attrs: {
+            property:"og:image",
+            content:"/og.png"
+          }
+        },
+      ]
     }),
   ],
 });
